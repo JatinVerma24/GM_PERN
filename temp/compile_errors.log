@@ -1,0 +1,8 @@
+api/auth/auth.manager.ts(48,21): error TS2322: Type '"STUDENT" | "TEACHER" | "ADMIN"' is not assignable to type 'UserRole | undefined'.
+  Type '"ADMIN"' is not assignable to type 'UserRole | undefined'.
+api/submission/submission.controller.ts(4,39): error TS2307: Cannot find module '../../utils/apiResponseHandler' or its corresponding type declarations.
+api/submission/submission.controller.ts(7,33): error TS2307: Cannot find module '../../utils/queue' or its corresponding type declarations.
+api/submission/submission.manager.ts(2,26): error TS2307: Cannot find module '../../utils/apiResponseHandler' or its corresponding type declarations.
+api/submission/submission.manager.ts(32,36): error TS18046: 'error' is of type 'unknown'.
+api/submission/submission.manager.ts(32,51): error TS18046: 'error' is of type 'unknown'.
+api/submission/submission.manager.ts(110,36): error TS2339: Property 'file' does not exist on type '{ list: () => Promise<never[]>; }'.
